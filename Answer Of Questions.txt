@@ -1,0 +1,26 @@
+1-
+	a)set vector of units by config file(altuough I prefered xml file ,because I habe no enough time I write text file config)
+	  aa)if there is no config.txt file display error on screen.
+	  ab)if there is a config file the vector of structure are set.
+	b)in meny by insert nuber 1 you can get money if is dispensed
+	  bb) if is not dispensed show error 
+	  bc) if there is not any error take 'y' charchter to complete process : if atm recieve other charcter increase retract count
+	c)show cash unit by password : password is hardcode and equal 2021
+
+2-bills of some cassetes finished soon while another may be full and never used.
+
+3-The Mix method is better than greedy : In mixed mode, we must use the cassettes at least once per payment
+
+4-Reject cassette is used to record unsuccessful transactions.
+
+sample of My Config file:
+
+cashunit_number|unit_type|unit_Id|Denomination|bill_count|bill_max|unit_status
+
+0|0|cas05|500|10|100|0
+0|0|cas010|1000|10|100|0
+0|0|cas020|2000|10|100|0
+0|0|cas050|5000|10|100|0
+0|0|cas0100|10000|10|100|0
+0|2|cas0ret|0|10|0|0
+0|1|cas0rej|0|10|0|0
